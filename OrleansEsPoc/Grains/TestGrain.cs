@@ -12,7 +12,7 @@ namespace Grains
         public override async Task OnActivateAsync()
         {
             //Uncomment to enforce correct order
-            await base.OnActivateAsync();
+            //await base.OnActivateAsync();
         }
 
         public async Task Increment()
